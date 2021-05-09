@@ -20,7 +20,7 @@ const checkAnswer = () => {
       backgroundImages.push(`url('images/background${score}.svg')`);
       document.body.style.backgroundImage = backgroundImages;
     } else {
-      alert('Well done! Your match Garden is full grown start again');
+      alert('Well done! Your math Garden is full grown start again');
       score = 0;
       backgroundImages = [];
       document.body.style.backgroundImage = backgroundImages;
